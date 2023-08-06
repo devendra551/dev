@@ -1,13 +1,6 @@
     // Script1 is script for Home(index.html) page 
 
-// Script for open side menu and hide menu when you click on Icon 
-var sideOption = document.getElementById("side");
-function showMenu() {
-    sideOption.style.left = "0";
-}
-function hideMenu() {
-    sideOption.style.left = "-300px";
-}
+
 
 // java script for fetching the API
 // this is Api key we get it from TMDb website(IMDb Api)
