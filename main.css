@@ -41,11 +41,12 @@ body{
 /* css related to navigation section  */
 
 .imdb-logo img{
-   width: 75px;
-   height: 35px;
+   width: 70px;
+   height: 60px;
+   border-radius: 51px;
 }
 .nav-menu{
-   height: 50px;
+   height: 80px;
    width: 100%;
    display: flex;
    flex-direction: row;
@@ -90,7 +91,7 @@ body{
 }
 /* sarch box input css  */
 .search-box input {
-   width: 100%;
+   width: 70%;
    height: 30px;
    padding-left: 20px;
    border-radius: 6px;
@@ -101,9 +102,10 @@ body{
 }
 /* find icon  */
 #search-icon{
-   position: absolute;
-   right: 15px;
+   /* position: absolute; */
+   right: 100px;
    cursor: pointer;
+   color: red;
 }
 #diff-color{
    color: aqua;
@@ -116,97 +118,16 @@ body{
    border-radius: 5px;
 }
 
-/* css for popupsection when you hover IMDbPro  */
-.pop-up{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-around;
-   box-sizing: border-box;
-   background-image: linear-gradient(to bottom, #242555, #03a5db);
-   padding: 10px;
-   box-shadow: 5px 10px 10px #5a5a5ab0;
-   width: 55%;
-   min-width: 700px;
-   margin: auto;
-   border-radius: 5px;
-   position:absolute;
-   top: 50px;
-   left: 0;
-   right: 0;
-   display: none;
-   z-index: 10;
-}
-.popup-img{
-   width: 160px;
-   height: 180px;
-}
-.popup-img img{
-   width: 100%;
-   height: 100%;
+#signin img{
+   height: 60px;
+   width: 70px;
    position: relative;
-}
-.pop-up-desc{
-   color: #fff;
-   font-weight: 400;
-}
-.popup-list li{ 
-   line-height: 25px;
-   list-style:disc;
-   /* padding-left: 10px; */
-   font-size: 1rem;
-}
-.popup-btn{
-   width: 50%;
-   height: 30px;
-   margin-top: 20px;
-   background-color: yellow;
-   border: none;
-   border-radius: 5px;
-}
-.imdbpro:hover + .pop-up{
-   display: flex;
+   top: 8px;
+   border-radius: 46px
 }
 
 
-/* css for menu option when you click on menu side section appears to you */
-.side-option{
-   position: absolute;
-   background: #303030;
-   height: 100vh;
-   width:300px;
-   left:-300px;
-   /* left: 0; */
-   top: 0;
-   text-align: left;
-   z-index: 2;
-   transition: 1s;
-    font-family: 'Montserrat', sans-serif;
-}
-.side-option .fa{
-   display: block;
-   color: var(--white);
-   margin: 10px;
-   font-size: 30px;
-   cursor: pointer;
-   text-align: right;
-   height: 50px;
-   padding: 10px;
-   margin:-1px;
-   background-color: #5c5c5c;
-}
-.side-list li{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items:center;
-   padding:5px 17px;
-   color: var(--white);
-   font-size: 1.1rem;
-}
-.side-list li:hover{
-   background-color: #47474d;
-}
+
 /* page navigation button css  */
 .page-navigate{
    display: flex;
